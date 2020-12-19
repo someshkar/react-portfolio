@@ -5,10 +5,12 @@ import Artwork from './components/Artwork';
 import Projects from './components/Projects';
 import SinglePost from './components/SinglePost';
 import Post from './components/Post';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />

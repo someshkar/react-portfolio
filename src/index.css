@@ -3,9 +3,107 @@
 @tailwind utilities;
 @tailwind styles;
 
-
-.cursive {
-  font-family: "Helvetica Neue";
-  font-weight: 700;
+@font-face {
+  font-family: 'Circular Std Bold';
+  src: url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.eot'); /* IE9*/
+  src: url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.woff2')
+      format('woff2'),
+    /* chrome、firefox */
+      url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.woff')
+      format('woff'),
+    /* chrome、firefox */
+      url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.ttf')
+      format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url('./circular-font/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold')
+      format('svg'); /* iOS 4.1- */
+}
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.eot'); /* IE9*/
+  src: url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.woff2')
+      format('woff2'),
+    /* chrome、firefox */
+      url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.woff')
+      format('woff'),
+    /* chrome、firefox */
+      url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.ttf')
+      format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url('./circular-std-book/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book')
+      format('svg'); /* iOS 4.1- */
 }
 
+.topnav {
+  overflow: hidden;
+  float: right;
+  display: block;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #555555;
+  text-align: center;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Circular Std Bold';
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #000000;
+  transform: scale(1.5);
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: #000000;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  .intro {
+    margin-top: 30vh;
+    margin-left: 5vw;
+
+    max-width: 30vw;
+  }
+
+  .introSubheader {
+    font-family: 'Circular Std Book';
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin-top: 25vh;
+    margin-left: 5vw;
+    max-width: 80vw;
+  }
+
+  .introSubheader {
+    font-family: 'Circular Std Book';
+    font-size: 2rem;
+    line-height: 50px;
+  }
+}
+.introHeader {
+  font-size: 6rem;
+}
+.blueText {
+  font-family: 'Circular Std Bold';
+  color: #2a85ec;
+}
