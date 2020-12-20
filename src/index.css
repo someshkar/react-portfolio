@@ -84,7 +84,11 @@
   .introSubheader {
     font-family: 'Circular Std Book';
     font-size: 2.5rem;
-    line-height: 50px;
+    line-height: 55px;
+  }
+  .projectText {
+    margin-top: 20px;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -97,7 +101,11 @@
   .introSubheader {
     font-family: 'Circular Std Book';
     font-size: 2rem;
-    line-height: 50px;
+    line-height: 40px;
+  }
+  .projectText {
+    margin-top: 20px;
+    font-size: 1.25rem;
   }
 }
 .introHeader {
