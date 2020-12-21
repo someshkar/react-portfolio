@@ -42,7 +42,7 @@
 .topnav {
   overflow: hidden;
   float: right;
-  display: block;
+  display: flex;
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
 }
@@ -60,7 +60,6 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   color: #000000;
-  transform: scale(1.5);
 }
 
 /* Add an active class to highlight the current page */
@@ -118,7 +117,17 @@
 .footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 20px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialicons {
+  padding: 15px;
+  color: greenyellow;
+  transition: transform 0.2s; /* Animation */
+}
+.socialicons:hover {
+  transform: scale(1.5);
 }

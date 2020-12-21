@@ -10,7 +10,9 @@ export default function Navbar() {
           </NavLink>
           <NavLink to='/projects'>Projects</NavLink>
           <NavLink to='/artwork'>Artwork</NavLink>
-          <a href='https://www.google.com'>google</a>
+          <NavLink to='/resume.pdf' target='_blank'>
+            Resume
+          </NavLink>
         </nav>
       </div>
     </header>
