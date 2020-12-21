@@ -6,11 +6,12 @@ import Projects from './components/Projects';
 import SinglePost from './components/SinglePost';
 import Post from './components/Post';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Footer />
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />
