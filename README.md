@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb7fda3d-c89f-498e-92ce-76c67430ec6b/deploy-status)](https://app.netlify.com/sites/pulkitportfolio/deploys)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
