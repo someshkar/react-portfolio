@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import AnimatedCursor from 'react-animated-cursor';
 import Home from './components/Home';
 import About from './components/About';
 import Artwork from './components/Artwork';
@@ -11,7 +10,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
-      <AnimatedCursor color='52, 128, 235' />
       <Navbar />
       <Footer />
       <Switch>
