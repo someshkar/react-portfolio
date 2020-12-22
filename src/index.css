@@ -76,23 +76,31 @@
   .intro {
     margin-top: 30vh;
     margin-left: 5vw;
-
-    max-width: 30vw;
   }
 
   .introSubheader {
     font-family: 'Circular Std Book';
     font-size: 2.5rem;
     line-height: 55px;
+    padding-bottom: 20px;
   }
   .projectText {
-    margin-top: 20px;
     font-size: 1.3rem;
+  }
+  .leftIntro {
+    float: left;
+    width: 35vw;
+    padding-right: 200px;
+  }
+  .rightImage {
+    float: right;
+    width: 450px;
+    margin-right: 15vw;
   }
 }
 @media only screen and (max-width: 600px) {
   .intro {
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-left: 5vw;
     max-width: 80vw;
   }
@@ -101,12 +109,16 @@
     font-family: 'Circular Std Book';
     font-size: 2rem;
     line-height: 40px;
+    padding-bottom: 20px;
   }
   .projectText {
-    margin-top: 20px;
     font-size: 1.25rem;
   }
+  .rightImage {
+    display: none;
+  }
 }
+
 .introHeader {
   font-size: 6rem;
 }
